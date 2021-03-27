@@ -1,16 +1,15 @@
-# SimpleMVI
-Simple implementation of MVI (MVI stands for Model-View-Intent) Architecture on Android allowing you to understand how Networking, Caching Data flow should look in this pattern also i would try to add the latest libraries and sample of usage with Android JetPack and Rx.
+![alt text](http://hannesdorfmann.com/images/mvi/mvi-func2.png)
 
 # Structure
-API (Services) - Network Tempalte
-App (Application) - Base Application
-DB (Database) - Room / Realm
-DI (Dependency Injection) - Hilt
-EXT (Constants) - Constants
-ENTITY (DataModels) - Entity and Models
-INTERACTORS (PhotoInteractor) - Model
-PRESENTATION (Views and ViewModels - ViewBindings) - Intent / Action
-UTILS (Extensions / DataState etc) - Helper classes
+- API (Services) - Network Tempalte
+- App (Application) - Base Application
+- DB (Database) - Room / Realm
+- DI (Dependency Injection) - Hilt
+- EXT (Constants) - Constants
+- ENTITY (DataModels) - Entity and Models
+- INTERACTORS (PhotoInteractor) - Model
+- PRESENTATION (Views and ViewModels - ViewBindings) - Intent / Action
+- UTILS (Extensions / DataState etc) - Helper classes
 
 The idea of this project would be to give a very simple implementation of the MVI architecture that you might use on daily basis in your projects as a base. So you could basically go forward with more complex and advanced usage of it.
 Currently we have introduced. Simple View State - ViewModel State - Networking and Caching with Room and Model State
