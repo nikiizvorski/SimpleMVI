@@ -1,8 +1,10 @@
-package com.nikiizvorski.mvi;
+package com.nikiizvorski.mvi.presentation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.nikiizvorski.mvi.R;
 
 public class MainActivity extends AppCompatActivity {
 
