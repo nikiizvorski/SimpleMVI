@@ -67,8 +67,6 @@ we have a network request which we cache in our db and afte that show the data.
 # DiffUtil Integration Added
 - DiffUtil to be updated with the new implementation
 
-# Hilt Integration - Added
-
 # Future Updates
 
 - Base Mapper for Entity and Network Models
