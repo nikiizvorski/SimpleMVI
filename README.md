@@ -85,6 +85,9 @@ we have a network request which we cache in our db and afte that show the data.
 
 - Reducer etc
 
+- Next update will contain MVIKotlin implementation and MVICore implementation 
+89in different branches.
+
 # Recommended Architecture implementation to go forward
 
 - MVI CORE BADOO - https://github.com/badoo/MVICore
