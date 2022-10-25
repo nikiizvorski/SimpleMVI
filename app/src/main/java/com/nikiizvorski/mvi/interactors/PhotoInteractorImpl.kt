@@ -34,10 +34,6 @@ class PhotoInteractorImpl @Inject constructor(private val photosDao: PhotosDao, 
         } else {
             DataState.Error(NetworkErrorException(response.errorBody().toString()))
         }
-//        val networkBlogs = networkDataSource.get()
-//        cacheDataSource.insertList(networkBlogs)
-//        val cachedBlogs = cacheDataSource.get()
-//        emit(DataState.Success(response.body()!!.photos))
     }
 
     /**
@@ -68,8 +64,6 @@ class PhotoInteractorImpl @Inject constructor(private val photosDao: PhotosDao, 
         }
         return block() // last attempt
     }
-
-
 }
 
 
